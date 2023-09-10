@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url("/assets/img/background.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 63vw;
+    height: 90vh;
+    margin-top: 20px;
+    padding: 80px 60px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.541);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 250px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #00dd00ff;
+    margin: 10px 0 5px 0;
+}
+
+#button_container {
+    width: 90%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00dd00ff;
+}
+
+button {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 3px;
+    padding: 0 4px;
+}
+
+#monopattino_container {
+    width: 90%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.monopattino {
+    margin: 20px 0;
+    color: #fff;
+}
+
+.monopattino_title {
+    display: flex;
+    margin-left: 5px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+input {
+    margin: 0 5px 0 0;
+}
+
+.distance {
+    margin: 5px 0;
+}
+
+.bar {
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#gino22bar {
+    background-color: #f5b453ff;
+    width: 35%;
+}
+
+#mike24bar {
+    background-color: #1ec31eff;
+    width: 55%;
+}
+
+#fede154bar {
+    background-color: #be4141ff;
+    width: 15%;
+}
